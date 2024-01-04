@@ -6,6 +6,10 @@
 
 }
 
+body{
+    background-color: #bdc3c7;
+}
+
 li{
     list-style: none;
 }
@@ -42,3 +46,15 @@ a{
 .head1 nav > ul > li a:hover{
     background-color: #7c6bd1;
 }
+
+/* header */
+
+.fc{
+    font-size: 18px;
+    text-align: center;
+    padding: 30px 0;
+    background-color: #909ead;
+}
+
+/* footer */
+
