@@ -1,13 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Doodle+Shadow&display=swap');
+
 *{
     margin: 0;
     padding: 0;
 
-}
-
-nav > ul{
-    display: flex;
-    align-items:center;
-    justify-content: space-between;
 }
 
 li{
@@ -18,8 +14,31 @@ a{
     text-decoration: none;
 }
 
-.head1{
+.head1 > nav > ul{
     width: 50%;
-    margin: 30px auto;
+    display: flex;
+    justify-content:center;
+    align-items:center;
+    margin: auto;
+}
 
+.head1{
+    padding: 30px 0;
+    background-color:#8c7ae6;;
+}
+
+.head1 nav > ul > li{
+    margin: auto;
+}
+
+.head1 a{
+    color: white;
+    font-family: 'Rubik Doodle Shadow', system-ui;
+    font-size: 18px;
+    font-weight:bold;
+    padding: 30px 70px;
+}
+
+.head1 nav > ul > li a:hover{
+    background-color: #7c6bd1;
 }
