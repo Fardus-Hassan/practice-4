@@ -1,0 +1,25 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+
+nav > ul{
+    display: flex;
+    align-items:center;
+    justify-content: space-between;
+}
+
+li{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+}
+
+.head1{
+    width: 50%;
+    margin: 30px auto;
+
+}
