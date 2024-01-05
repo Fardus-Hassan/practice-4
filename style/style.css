@@ -54,7 +54,28 @@ a{
     text-align: center;
     padding: 30px 0;
     background-color: #909ead;
+    color: rgb(255, 255, 255);
 }
 
 /* footer */
 
+main header h2{
+    font-size: 35px;
+    margin: 30px 0;
+}
+
+main header p{
+    margin-bottom: 30px;
+    font-size: 20px;
+}
+
+main header button{
+    margin-bottom: 30px;
+    border: none;
+    padding: 15px 25px;
+    font-size: 17px;
+    background-color:#129299;
+    font-family: 'Rubik Doodle Shadow', system-ui;
+    color: rgb(255, 255, 255);
+
+}
